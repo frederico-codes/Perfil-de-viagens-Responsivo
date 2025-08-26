@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <title>Travelgram — Perfil</title>
+</head>
+<body>
+
+  <!-- Topbar -->
+  <header class="topbar">
+    <div class="topbar__content">
+      <a class="brand" href="#" aria-label="Travelgram - Início">       
+      <img src="assets/Logo.svg" alt="logo">
+        <span id="topbar-span">Travelgram</span>
+      </a>
+
+      <div class="topbar__actions">
+        <button class="btn-icon" type="button" aria-label="Pesquisar">
+         <img src="assets/lupa.svg" alt="icone de uma lupa">
+        </button>
+
+        <nav class="menu" aria-label="Menu principal">
+          <a href="#" class="link-menu">Explorar</a>
+          <a href="#" class="link-menu">Minhas viagens</a>
+        </nav>
+
+        <a class="avatar avatar--sm" href="#" aria-label="Abrir perfil">
+          <img src="assets/Profile-Pic -Small.svg" alt="Foto do usuário" />
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="page">   
+    <section class="profile" aria-labelledby="profile-title">
+        <div class="profile__wrap">
+          <div class="profile__left">
+            <div class="avatar avatar--lg">
+              <img src="assets/Profile-Pic.svg" alt="Isabela Torres" id="profile-foto"/>
+            </div>
+
+            <div class="profile__bio">
+              <h1 id="profile-title">Isabela Torres</h1>
+              <p id="profile-paragrafo">
+              Amante de viagens, cultura e gastronomia. ✨<br/>
+              Aqui compartilho as histórias registradas em cada clique, explorando cantinhos fascinantes do nosso
+              planeta a partir da movimentada cidade de São Paulo. ✈️🌍
+              </p>
+            </div>
+          </div>
+
+          <aside class="profile__stats" aria-label="Estatísticas do perfil">
+            <ul class="stats">
+              <li class="stats__item">
+              <img src="assets/localizar.svg" alt="icone de localização">
+              <span class="stats__text">São Paulo, Brasil</span>
+              </li>
+              <li class="stats__item">
+              <img src="assets/viagem.svg" alt="ícone de avião">           
+              <span class="stats__text">37 países</span>
+              </li>
+              <li class="stats__item">
+              <img src="assets/paisagem.svg" alt="ícone de paisagem">
+              <span class="stats__text" aria-hidden="true">240 fotos</span>
+              </li>
+            </ul>
+          </aside>
+        </div>
+    </section>
+
+    <!-- Galeria -->
+    <section class="gallery" aria-label="Galeria de fotos">
+      <ul class="gallery__grid">
+        
+        <li class="card"><figure><img src="assets/Image 1.svg" alt="Barco em lago cercado por montanhas" /></figure></li>
+        <li class="card"><figure><img src="assets/Image 2.svg" alt="Canal ao pôr do sol" /></figure></li>
+        <li class="card"><figure><img src="assets/Image 3.svg" alt="Ponte sobre canal europeu" /></figure></li>
+        <li class="card"><figure><img src="assets/Image 4.svg" alt="Varanda de restaurante em viela" /></figure></li>
+
+        
+        <li class="card"><figure><img src="assets/Image 5.svg" alt="Casario colorido à beira do mar" /></figure></li>
+        <li class="card"><figure><img src="assets/Image 6.svg" alt="Vilarejo litorâneo com barcos" /></figure></li>
+        <li class="card"><figure><img src="assets/Image 7.svg" alt="Ponte e rio refletindo o céu" /></figure></li>
+        <li class="card"><figure><img src="assets/Image 8.svg" alt="Catedral com cúpula" /></figure></li>
+
+        
+        <li class="card"><figure><img src="assets/Image 9.svg" alt="Ruela com lambreta" /></figure></li>
+        <li class="card"><figure><img src="assets/Image 10.svg" alt="Café com scooter estacionada" /></figure></li>
+        <li class="card"><figure><img src="assets/Image 11.svg" alt="Mesa com comidas e drinks" /></figure></li>
+        <li class="card"><figure><img src="assets/Image 12.svg" alt="Coliseu em Roma" /></figure></li>
+      </ul>
+    </section>
+  </main>
+
+ 
+  <footer class="site-footer">
+    <div class="site-footer__content">
+      <small>Travelgram © 2024</small>
+      <nav class="site-footer__links" aria-label="Links do rodapé">
+        <a href="#">Termos de uso</a>
+        <a href="#">Política de privacidade</a>
+      </nav>
+    </div>
+  </footer>
+
+</body>
+</html>
